@@ -41,8 +41,8 @@
     <widget class="QPushButton" name="revealBtn">
      <property name="geometry">
       <rect>
-       <x>100</x>
-       <y>270</y>
+       <x>20</x>
+       <y>240</y>
        <width>91</width>
        <height>41</height>
       </rect>
@@ -96,14 +96,46 @@
     <widget class="QPushButton" name="addDeckBtn">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>270</y>
+       <x>180</x>
+       <y>240</y>
        <width>91</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
       <string>Add Deck</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="againTimeLb">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>300</y>
+       <width>63</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1 min</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="goodTimeLb">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>300</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0 min</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
    </widget>
